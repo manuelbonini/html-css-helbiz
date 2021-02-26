@@ -4,7 +4,16 @@
     margin: auto;
 }
 
+.div-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 /* HEADER */
+
+/* NAV */
 .nav-top {
     padding: 20px;
 }
@@ -44,4 +53,29 @@ header nav {
 
 .nav-menu.lang li:first-child {
     border-left: none;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url("../img/hero-bg.jpg");
+    height: 500px;
+    position: relative;
+}
+
+.teaser {
+    color: white;
+    text-align: center;
+}
+
+.jumbotron .teaser h1 {
+    font-size: 40px;
+}
+
+.jumbotron .teaser p {
+    font-size: 15px;
+}
+
+.jumbotron img {
+    height: 50px;
+    padding-top: 10px;
 }
