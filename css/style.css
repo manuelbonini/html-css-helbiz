@@ -1,0 +1,47 @@
+/* COMMON */
+.small-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADER */
+.nav-top {
+    padding: 20px;
+}
+
+header nav {
+    text-align: right;
+}
+
+.burger-menu {
+    font-size: 20px;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+}
+
+.nav-menu.lang {
+    text-align: left;
+}
+
+.nav-menu.lang li {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.nav-menu.lang li:first-child {
+    border-left: none;
+}
